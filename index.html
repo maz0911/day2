@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <p><i class="iconfont icon-xiangzuo"></i></p>
+            <p>无连接</p>
+            <p><i class="iconfont  icon-shouqi-01"></i><i class="iconfont one icon-jianpan"></i></p>
+        </header>
+        <section>
+            <div class="box">
+                <dl>
+                    <dt><i class="iconfont icon-06"></i></dt>
+                    <dd>电源</dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-01"></i></dt>
+                    <dd>首页</dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-11"></i></dt>
+                    <dd>菜单</dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-20"></i></dt>
+                    <dd>截屏</dd>
+                </dl>
+            </div>
+            <div class="nav">
+                <span class="active">滑动控制上下左右，点击确定<br/>长按调节电视音量</span>
+                <span>滑动控制上下左右</span>
+                <span>滑动控制上下左右，点击确定</span>
+                <span>滑动控制上下左右，调节电视音量</span>
+            </div>
+
+        </section>
+    </div>
+    <script src="js/flexible.js"></script>
+    <script>
+        const dls = [...document.querySelectorAll(".box dl")];
+        const spns = [...document.querySelectorAll(".nav span")];
+        console.log(dls);
+        dls.forEach(item => {
+            item.onclick = function() {
+                span.forEach(file => {
+
+                })
+            }
+        })
+    </script>
+</body>
+
+</html>
